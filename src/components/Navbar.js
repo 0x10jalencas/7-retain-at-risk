@@ -136,10 +136,10 @@ function Navbar() {
                         Overview
                     </Link>
                     <Link
-                        to="/alerts"
-                        style={isActive('/alerts') ? activeLinkStyle : linkStyle}
+                        to="/assessment"
+                        style={isActive('/assessment') ? activeLinkStyle : linkStyle}
                     >
-                        Alerts
+                        Assessment
                     </Link>
                     <Link
                         to="/settings"
